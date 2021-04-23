@@ -1,0 +1,120 @@
+body {
+    background-color:#363538;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#fffb1f;
+    margin: 0px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 15px;
+    text-decoration: none;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+}
+nav a{
+    padding: 15px 20px;
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+}
+a.nav:visited{
+    color:#fffb1f;
+    text-decoration: none;
+}
+a.nav:hover{
+    color: rgb(255, 255, 255);
+}
+a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+}
+
+a:hover{
+    color: #fffd76;
+    text-decoration: none;
+}
+h4{
+    padding: 20px;
+    font-size: 20px;
+
+}
+fieldset{
+    margin: auto;
+    border-color: #d649db;
+    width: 90%;
+   border-width: 10px;
+}
+hr{
+    border-width: 2px;
+    border-color: #bebebe;
+}
+h2{
+    padding: 50px 0px;
+    font-size: xx-large;
+    color:#ffffff;
+}
+p {
+    font-size: 20px;
+   font-family: serif;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+   text-align: center;
+   padding: 20px;
+}
+header{
+    background-image: url(/school-logo.jpg);
+    background-repeat: no-repeat;
+    padding: 100px;
+  background-color: white;
+  background-attachment: fixed;
+}
+.logo{
+    width: 700px;
+    height: 200px; 
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-auto-rows: 300px;
+    column-gap: 30px;
+    row-gap: 10px;
+}
+iframe{
+    width: 470px;
+    height: 290px;
+}
+.college-reviews{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-auto-rows: 300px;
+    column-gap: 30px;
+    row-gap: 10px;
+}
+.study-material{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-auto-rows: 300px;
+    column-gap: 30px;
+    row-gap: 10px;
+    padding-bottom: 320px
+}
+.study{
+    height: 600px ;
+}
+.info{
+    background-color: aliceblue;
+}
+@media screen and (max-width:900px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        margin: 10px;
+    }
+}
