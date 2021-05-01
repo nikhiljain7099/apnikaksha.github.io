@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     background-color:#363538;
     font-family: 'Times New Roman', Times, serif;
